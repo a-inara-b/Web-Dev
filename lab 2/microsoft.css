@@ -1,0 +1,115 @@
+.menu ul li {
+    display: inline;
+    margin-left: 19px;
+    font-size: 14px;
+    color: rgb(56, 55, 55);
+}
+
+#logo {
+    height: 20px;
+    position: relative;
+    top: 2px;
+}
+
+#right {
+    margin-right: 540px;
+}
+
+#main {
+    margin-left: -10px;
+    width: 1490px;
+}
+
+#mainPic {
+    position: relative;
+}
+
+#raz {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+}
+
+button:hover {
+    background: rgb(47, 47, 217);
+}
+
+#vhod {
+    position: relative;
+    top: 10px;
+    /* margin-top: 20px; */
+    width: 40px;
+}
+
+button {
+    font-size: 15px;
+    width: 250px;
+    background: rgb(66, 66, 221);
+    height: 43px;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(66, 66, 221);
+}
+
+.tekst {
+    position: absolute;
+    top: 20%;
+    left: 65px;
+    color: white;
+    width: 450px;
+    padding: 10px;
+    text-align: justify;
+    font: 17px Helvetica, Sans-Serif;
+}
+
+table {
+    /* table-layout:fixed; */
+    margin-top: 50px;
+    margin-left: 55px;
+    /* width: 1200px; */
+    /* border-spacing: 10px; */
+    border-spacing: 1em 0.01em;
+    border-collapse: separate;
+}
+
+a:active {
+    border-style: dotted;
+    border-color: rgb(200, 195, 195);
+}
+
+.up {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nov {
+    width: 315px;
+}
+
+td {
+    width: 200px;
+    /* padding-top: 10px; */
+    margin-top: -100px;
+    vertical-align: top;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.des {
+    font-size: 18px;
+}
+
+/* li:nth-child(3)#description{
+    display: inline;
+    margin-left: 30px;
+    font-weight: bold;
+} */

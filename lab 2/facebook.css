@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+h1 {
+    /* color: rgb(84, 84, 255); */
+    color: #0084d1;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    /* padding-top: 100px; */
+    /* margin-top: 50px; */
+    margin-left: 220px;
+    font-size: 50px;
+    /* font-weight:900; */
+}
+
+p {
+    /* margin-top: -15px; */
+    margin-left: 220px;
+    font-size: 18px;
+    font-size: 30px;
+}
+
+div {
+    display: inline-block;
+    padding-top: 170px;
+}
+
+#registration {
+    margin-top: 100px;
+    width: 400px;
+    height: 180px;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 15px;
+} 
+
+ol {
+    list-style-type: none;
+    margin-top: -150px;
+}
+
+.input {
+    font-size: 16px;
+    width: 360px;
+    height: 42px;
+    /* margin-left: -30px; */
+    /* border: 7px, gray; */
+    border-radius: 7px;
+    /* border-color: gray; */
+    border:1px solid #BDBDBD;
+    text-indent: 15px;
+}
+
+li {
+    margin-top: 8px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+button {
+    /* margin-left: -30px; */
+    width: 368px;
+    height: 42px;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+#login {
+    background-color: rgb(84, 84, 255);
+    color: white;
+    border-color: rgb(84, 84, 255);
+}
+
+#create {
+    width: 300px;
+    background-color: rgb(9, 187, 9);
+    color: white;
+    border-color: rgb(9, 187, 9);
+    /* border-color: red; */
+    /* box-shadow: none; */
+}
+
+#register {
+    margin-left: 812px;
+    margin-top: -150px;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type="text"].input:active {
+    border: 3px solid blue;
+}
+
+#footer {
+    width: 100%;
+    background-color: white;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 27px;
+}
+
+.lang {
+    list-style-type: none;
+    margin-left: 160px;
+    /* display: flex; */
+    /* margin-top: 40px; */
+}
+
+ul.lang li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#pluss {
+    font-weight: bold;
+}
+
+#end {
+    width: 1000px;
+    margin-left: 220px;
+}
+
+#footer {
+    font-size: 5px;
+    margin-top: 70px;
+}
+
+#plus {
+    font-weight: bold;
+    text-indent: 20px;
+    width: 40px;
+    background: rgb(223, 220, 220);
+    border: 2px solid rgb(208, 208, 208);
+    /* width: 50px;
+    height: 50px; */
+}
+
+#endd {
+    font-size: 14px;
+    color: gray;
+}
