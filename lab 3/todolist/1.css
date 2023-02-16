@@ -1,0 +1,47 @@
+li{
+    list-style-type: none;
+  }
+  li{
+    font-size: 20px;
+  }
+  input[type='text']{
+    font-size: 17px;
+  }
+  input[type='button']{
+  /*   padding: 5px 15px 5px 15px; */
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .class1, .todo, .prio{
+    padding: 5px 15px 5px 15px;
+  }
+  #tick{
+    background: green;
+    margin-left: 15px;
+  }
+  #delete{
+    background: red;
+  }
+  .done{
+    background: gray;
+    color: white;
+    text-decoration: line-through;
+  }
+  #pr{
+    font-size: 18px;
+    margin-right: 8px;
+    background: lightblue;
+    width: 45px;
+    height: 34px;
+  }
+  #prr {
+        font-size: 18px;
+        margin-right: 8px;
+        background: lightblue;
+        width: 45px;
+        height: 34px;
+        margin-left: 5.5px;
+  }
+  .p{
+    background: lightblue;
+  }

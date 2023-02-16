@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To do list</title>
+        <link rel="stylesheet" href="1.css">
+    </head>
+    <body>
+        <script src="1.js"></script>
+        <h1>TO DO List</h1>
+        <p><input type='button' value='Add' onclick='add()'></p>
+        <p><input id='add.text' type='text' placeholder='enter task ...'></p>
+        <hr>
+        <ul id='tasks'>
+            <li><input type='button' value='&#x2713' onclick='tick(this.parentNode)' id='tick' class='class1'/>
+                <input type='button' value='&#x2715' onclick='delte(this.parentNode)' class='todo' id='delete'/>
+                <input type='button' value='!' onclick='priori(this.parentNode)' class='prio' id='pr'/>make dinner
+            </li>
+        </ul>
+    </body>
+</html>

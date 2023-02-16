@@ -1,0 +1,33 @@
+let i = 3;
+
+while (i) {
+  alert( i-- );
+}
+
+the last value of i is 0
+
+
+
+let i = 0;
+while (++i < 5) alert( i );
+
+the last value of i is 4
+
+
+
+let i = 0;
+while (i++ < 5) alert( i );
+
+the last value of i is 5
+
+
+
+for (let i = 0; i < 5; i++) alert( i );
+
+the last value of i is 4
+
+
+
+for (let i = 0; i < 5; ++i) alert( i );
+
+the last value of i is 4
