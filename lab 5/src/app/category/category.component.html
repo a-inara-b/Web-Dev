@@ -1,0 +1,16 @@
+<h1>Select Category</h1>
+<div>
+    <div class="choices">
+        <span class="buttons" *ngFor="let category of categories">
+            <button type="button" (click)="selectItem(category.name)">
+                {{category.name}}
+            </button>
+        </span>
+    </div>
+    
+    <span *ngFor="let category of categories">
+        <span *ngIf="choice == category.name">
+            <app-product-list [categoryy]="category.name"></app-product-list>
+        </span>
+    </span>
+</div>
