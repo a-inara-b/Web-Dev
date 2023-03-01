@@ -1,0 +1,30 @@
+<h2>Products</h2>
+
+<div *ngFor="let category of categories">
+<div *ngFor="let product of category.products">
+  <h3>
+    <!-- <a href=product.link> -->
+    <a [href]=product.link [title]="product.name + ' details'">
+      {{ category.product.name }}
+      <!-- </a> -->
+    </a>
+  </h3>
+
+  <!-- <div id="app">
+  <div class="carousel"> -->
+
+  <img [src]=product.image width=200px>
+  <!-- <span class="btn prev" title="prev" data-direction="prev">&#8249;</span>
+			<span class="btn next" title="next" data-direction="next">&#8250;</span>
+      <div class="meta">Viewing image number 1</div>
+  </div>
+  </div> -->
+
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+  <p *ngIf="product.rating">Rating: {{ product.rating }}</p>
+<!-- (click)="share()" -->
+  <button type="button"><a href = "https://t.me/share/url?url={{ product.link }}&text=abc">Share</a></button>
+
+  <app-product-alerts [product]="product" (notify)="onNotify()">
+  </app-product-alerts>
+</div>
