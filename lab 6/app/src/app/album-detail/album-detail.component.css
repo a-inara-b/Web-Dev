@@ -1,0 +1,43 @@
+.content {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(96, 140, 202);
+}
+
+fieldset {
+  text-align: left;
+  border-style: none;
+  background-color: rgb(98, 185, 163);;
+  padding: 10px;
+}
+
+input {
+  width: calc(100% - 125px);
+  padding: 5px;
+  margin-right: 10px;
+  height: 20px;
+  border-style: none;
+}
+
+.save-button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(96, 140, 202);
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+
+.photos-link {
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: rgb(138, 183, 160);
+}
+
+a:visited {
+  color: white;
+}
